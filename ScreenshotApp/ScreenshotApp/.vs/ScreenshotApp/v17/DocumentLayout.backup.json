@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programma\\Datagaze\\1\\ScreenshotApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16BA9B57-0322-4D3B-924D-5A10FF4852C7}|ScreenshotApp\\ScreenshotApp.csproj|d:\\programma\\datagaze\\1\\screenshotapp\\screenshotapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16BA9B57-0322-4D3B-924D-5A10FF4852C7}|ScreenshotApp\\ScreenshotApp.csproj|solutionrelative:screenshotapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BA9B57-0322-4D3B-924D-5A10FF4852C7}|ScreenshotApp\\ScreenshotApp.csproj|D:\\Programma\\Datagaze\\1\\ScreenshotApp\\screenshotapp\\areaselectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16BA9B57-0322-4D3B-924D-5A10FF4852C7}|ScreenshotApp\\ScreenshotApp.csproj|solutionrelative:screenshotapp\\areaselectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BA9B57-0322-4D3B-924D-5A10FF4852C7}|ScreenshotApp\\ScreenshotApp.csproj|D:\\Programma\\Datagaze\\1\\ScreenshotApp\\screenshotapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BA9B57-0322-4D3B-924D-5A10FF4852C7}|ScreenshotApp\\ScreenshotApp.csproj|solutionrelative:screenshotapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BA9B57-0322-4D3B-924D-5A10FF4852C7}|ScreenshotApp\\ScreenshotApp.csproj|D:\\Programma\\Datagaze\\1\\ScreenshotApp\\screenshotapp\\areaselectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BA9B57-0322-4D3B-924D-5A10FF4852C7}|ScreenshotApp\\ScreenshotApp.csproj|solutionrelative:screenshotapp\\areaselectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BA9B57-0322-4D3B-924D-5A10FF4852C7}|ScreenshotApp\\ScreenshotApp.csproj|D:\\Programma\\Datagaze\\1\\ScreenshotApp\\screenshotapp\\areaselectionform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BA9B57-0322-4D3B-924D-5A10FF4852C7}|ScreenshotApp\\ScreenshotApp.csproj|solutionrelative:screenshotapp\\areaselectionform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BA9B57-0322-4D3B-924D-5A10FF4852C7}|ScreenshotApp\\ScreenshotApp.csproj|D:\\Programma\\Datagaze\\1\\ScreenshotApp\\screenshotapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16BA9B57-0322-4D3B-924D-5A10FF4852C7}|ScreenshotApp\\ScreenshotApp.csproj|solutionrelative:screenshotapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Programma\\Datagaze\\1\\ScreenshotApp\\ScreenshotApp\\App.xaml",
+              "RelativeDocumentMoniker": "ScreenshotApp\\App.xaml",
+              "ToolTip": "D:\\Programma\\Datagaze\\1\\ScreenshotApp\\ScreenshotApp\\App.xaml",
+              "RelativeToolTip": "ScreenshotApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-04T23:29:58.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AreaSelectionForm.cs",
+              "DocumentMoniker": "D:\\Programma\\Datagaze\\1\\ScreenshotApp\\ScreenshotApp\\AreaSelectionForm.cs",
+              "RelativeDocumentMoniker": "ScreenshotApp\\AreaSelectionForm.cs",
+              "ToolTip": "D:\\Programma\\Datagaze\\1\\ScreenshotApp\\ScreenshotApp\\AreaSelectionForm.cs",
+              "RelativeToolTip": "ScreenshotApp\\AreaSelectionForm.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T19:56:06.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AreaSelectionForm.Designer.cs",
+              "DocumentMoniker": "D:\\Programma\\Datagaze\\1\\ScreenshotApp\\ScreenshotApp\\AreaSelectionForm.Designer.cs",
+              "RelativeDocumentMoniker": "ScreenshotApp\\AreaSelectionForm.Designer.cs",
+              "ToolTip": "D:\\Programma\\Datagaze\\1\\ScreenshotApp\\ScreenshotApp\\AreaSelectionForm.Designer.cs",
+              "RelativeToolTip": "ScreenshotApp\\AreaSelectionForm.Designer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T19:50:18.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AreaSelectionForm.cs [Design]",
+              "DocumentMoniker": "D:\\Programma\\Datagaze\\1\\ScreenshotApp\\ScreenshotApp\\AreaSelectionForm.cs",
+              "RelativeDocumentMoniker": "ScreenshotApp\\AreaSelectionForm.cs",
+              "ToolTip": "D:\\Programma\\Datagaze\\1\\ScreenshotApp\\ScreenshotApp\\AreaSelectionForm.cs [Design]",
+              "RelativeToolTip": "ScreenshotApp\\AreaSelectionForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T19:49:53.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Programma\\Datagaze\\1\\ScreenshotApp\\ScreenshotApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ScreenshotApp\\MainWindow.xaml",
+              "ToolTip": "D:\\Programma\\Datagaze\\1\\ScreenshotApp\\ScreenshotApp\\MainWindow.xaml",
+              "RelativeToolTip": "ScreenshotApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-04T19:33:09.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Programma\\Datagaze\\1\\ScreenshotApp\\ScreenshotApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ScreenshotApp\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Programma\\Datagaze\\1\\ScreenshotApp\\ScreenshotApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ScreenshotApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwJoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T19:33:08.334Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

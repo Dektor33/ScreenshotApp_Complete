@@ -1,1 +1,0 @@
-# ScreenshotApp_Complete

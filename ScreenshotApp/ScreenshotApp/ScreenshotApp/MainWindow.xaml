@@ -1,0 +1,93 @@
+﻿<Window x:Class="ScreenshotApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Screenshot App" Height="500" Width="600" 
+        ResizeMode="CanMinimize" 
+        WindowStyle="SingleBorderWindow"
+        Icon="/icon_main.png" 
+        Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"
+        BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" 
+        FontSize="20">
+
+    <Window.Resources>
+        <!-- Button Style -->
+        <Style x:Key="MainButtonStyle" TargetType="Button">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="Background" Value="#00BFAE"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#009B8F"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="Margin" Value="0,10"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+        </Style>
+
+        <!-- Button Hover Effect -->
+        <Style x:Key="MainButtonHoverStyle" TargetType="Button" BasedOn="{StaticResource MainButtonStyle}">
+            <Setter Property="Background" Value="#009B8F"/>
+        </Style>
+
+        <!-- Gradient Background -->
+        <LinearGradientBrush x:Key="BackgroundBrush" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#E5F2F2" Offset="0.0"/>
+            <GradientStop Color="#C6E0E1" Offset="1.0"/>
+        </LinearGradientBrush>
+
+        <!-- Image Border Style -->
+        <Style x:Key="ImageBorderStyle" TargetType="Border">
+            <Setter Property="Background" Value="#FFFFFF"/>
+            <Setter Property="BorderBrush" Value="#A8B4B7"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Margin" Value="0,240,0,0"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+    </Window.Resources>
+
+    <Window.Effect>
+        <DropShadowEffect/>
+    </Window.Effect>
+
+    <Grid Margin="20" Background="{StaticResource BackgroundBrush}">
+        <TextBlock FontSize="24" FontWeight="Bold" Foreground="#00BFAE" VerticalAlignment="Top" Margin="0,10,0,0">
+            <TextBlock.Inlines>
+                <Run Text="📸 "/>
+                <Run Text="comfort for everyone"/>
+            </TextBlock.Inlines>
+        </TextBlock>
+
+        <!-- Folder Selection Button -->
+        <Button Content="📁 Choose Folder" Style="{StaticResource MainButtonStyle}" VerticalAlignment="Top"
+                Click="ChooseFolder_Click" Margin="44,70,317,0" RenderTransformOrigin="0.5,0.5" Height="50" >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.189"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.33"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+        <!-- Full Screenshot Button -->
+        <Button Content="📸 Full Screenshot" Style="{StaticResource MainButtonStyle}" VerticalAlignment="Top"
+                Margin="43,155,317,0" Click="TakeScreenshot_Click" />
+
+        <!-- Select Area Button -->
+        <Button Content="✂ Select Area" Style="{StaticResource MainButtonStyle}" VerticalAlignment="Top"
+                Margin="316,70,44,0" Click="TakeScreenshotArea_Click" />
+
+        <!-- Send to Telegram Button -->
+        <Button Content="📤 Send to Telegram" Style="{StaticResource MainButtonStyle}" VerticalAlignment="Top"
+                Margin="316,155,44,0" Click="SendScreenshot_Click" />
+
+        <!-- Display Screenshot Image -->
+        <Border Style="{StaticResource ImageBorderStyle}">
+            <Image Name="ScreenshotImage" Stretch="Uniform" Margin="0,-6,0,0"/>
+        </Border>
+    </Grid>
+</Window>
